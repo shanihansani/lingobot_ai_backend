@@ -1,0 +1,83 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "dialog1": ["Hello", "Hi", "Hey", "Howdy"],
+      "dialog2": ["Hello", "Hi", "Hey", "Howdy"]
+    },
+    {
+      "tag": "greetings",
+      "dialog1": ["Good morning"],
+      "dialog2": ["Good morning"]
+    },
+    {
+      "tag": "greetings",
+      "dialog1": ["Good afternoon"],
+      "dialog2": ["Good afternoon"]
+    },
+    {
+      "tag": "greetings",
+      "dialog1": ["Good night"],
+      "dialog2": ["Good night"]
+    },
+    {
+      "tag": "greetings",
+      "dialog1": ["Good evening"],
+      "dialog2": ["Good evening"]
+    },
+    {
+      "tag": "greetings",
+      "dialog1": [
+        "Nice to meet you",
+        "Pleased to meet you",
+        "It is a pleasure"
+      ],
+      "dialog2": ["Me too"]
+    },
+    {
+      "tag": "greetings",
+      "dialog1": [
+        "How are you",
+        "How are you doing",
+        "What's up",
+        "How is it going",
+        "How are things"
+      ],
+      "dialog2": [
+        "I am good",
+        "I am well",
+        "I am ok",
+        "Fantastic",
+        "I am fine, thanks"
+      ]
+    },
+    {
+      "tag": "greetings",
+      "dialog1": ["Have a good day", "Enjoy your day"],
+      "dialog2": ["Have a good day", "Enjoy your day"]
+    },
+    {
+      "tag": "greetings",
+      "dialog1": ["Good luck", "Best of luck", "All the best"],
+      "dialog2": ["Good luck", "Best of luck", "All the best"]
+    },
+    {
+      "tag": "greetings",
+      "dialog1": ["I go a go", "I have to go"],
+      "dialog2": ["Ok, Bye", "We will meet again"]
+    },
+    {
+      "tag": "basic",
+      "dialog1": ["Are you having a good day", "How is your day going"],
+      "dialog2": ["Yes, I am having a great day", "It is ok, nothing much"]
+    },
+    {
+      "tag": "basic",
+      "dialog1": [
+        "Can you help me with this",
+        "Would you please give me a hand"
+      ],
+      "dialog2": ["Yes I will", "Ok, Let me help you"]
+    }
+  ]
+}
