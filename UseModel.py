@@ -65,4 +65,4 @@ def response_from_chatbot(string):
     res = response_retrieving(ints, intents)
     return res
 
-# print(response_from_chatbot("Are you having a good day"))
+print(response_from_chatbot("Why are you laugh so much"))

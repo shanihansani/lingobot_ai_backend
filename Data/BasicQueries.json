@@ -3,30 +3,37 @@
     {
       "tag": "greetings",
       "dialog1": ["Hello", "Hi", "Hey", "Howdy"],
-      "dialog2": ["Hello", "Hi", "Hey", "Howdy"]
+      "dialog2": [
+        "Hello",
+        "Hi",
+        "Hey",
+        "Howdy",
+        "Hi there, what can I do for you",
+        "Hi there, how can I help"
+      ]
     },
     {
-      "tag": "greetings",
+      "tag": "morning",
       "dialog1": ["Good morning"],
       "dialog2": ["Good morning"]
     },
     {
-      "tag": "greetings",
+      "tag": "afternoon",
       "dialog1": ["Good afternoon"],
       "dialog2": ["Good afternoon"]
     },
     {
-      "tag": "greetings",
+      "tag": "night",
       "dialog1": ["Good night"],
       "dialog2": ["Good night"]
     },
     {
-      "tag": "greetings",
+      "tag": "evening",
       "dialog1": ["Good evening"],
       "dialog2": ["Good evening"]
     },
     {
-      "tag": "greetings",
+      "tag": "post_meeting",
       "dialog1": [
         "Nice to meet you",
         "Pleased to meet you",
@@ -35,7 +42,7 @@
       "dialog2": ["Me too"]
     },
     {
-      "tag": "greetings",
+      "tag": "pre_meeting",
       "dialog1": [
         "How are you",
         "How are you doing",
@@ -52,32 +59,310 @@
       ]
     },
     {
-      "tag": "greetings",
+      "tag": "good_day",
       "dialog1": ["Have a good day", "Enjoy your day"],
       "dialog2": ["Have a good day", "Enjoy your day"]
     },
     {
-      "tag": "greetings",
+      "tag": "luck",
       "dialog1": ["Good luck", "Best of luck", "All the best"],
       "dialog2": ["Good luck", "Best of luck", "All the best"]
     },
     {
-      "tag": "greetings",
-      "dialog1": ["I go a go", "I have to go"],
-      "dialog2": ["Ok, Bye", "We will meet again"]
+      "tag": "goodbye",
+      "dialog1": ["I got a go", "I have to go", "See you later", "Good bye"],
+      "dialog2": ["Ok, Bye", "We will meet again", "Have a nice day"]
     },
     {
-      "tag": "basic",
+      "tag": "day",
       "dialog1": ["Are you having a good day", "How is your day going"],
       "dialog2": ["Yes, I am having a great day", "It is ok, nothing much"]
     },
     {
-      "tag": "basic",
+      "tag": "help",
       "dialog1": [
         "Can you help me with this",
-        "Would you please give me a hand"
+        "Would you please give me a hand",
+        "Can you assist me"
       ],
       "dialog2": ["Yes I will", "Ok, Let me help you"]
+    },
+    {
+      "tag": "thanks",
+      "dialog1": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "dialog2": ["Happy to help", "Any time", "My pleasure"]
+    },
+    {
+      "tag": "funny",
+      "dialog1": [
+        "Tell me a joke",
+        "Tell me something funny",
+        "Do you know a joke"
+      ],
+      "dialog2": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool",
+        "What did the buffalo say when his son left for college, Bison",
+        "What do kids play when their mom is using the phone, Bored games",
+        "Why are snails slow, Because they are carrying a house on their back"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "dialog1": [
+        "How long does delivery take",
+        "How long does shipping take",
+        "When do I get my delivery"
+      ],
+      "dialog2": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days",
+        "It will take 4 hours"
+      ]
+    },
+    {
+      "tag": "payments",
+      "dialog1": [
+        "Do you take credit cards",
+        "Do you accept Mastercard",
+        "Can I pay with Paypal",
+        "Are you cash only"
+      ],
+      "dialog2": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "items",
+      "dialog1": [
+        "Which items do you have",
+        "What kinds of items are there",
+        "What do you sell"
+      ],
+      "dialog2": [
+        "We sell chocolate and vanila milkshakes",
+        "We have cheese burgers",
+        "We got keyboards and mouses"
+      ]
+    },
+    {
+      "tag": "relationship",
+      "dialog1": ["Are you married", "Are you engaged"],
+      "dialog2": [
+        "Yes",
+        "No",
+        "Yes, I have been married for two years now.",
+        "I am divorced",
+        "I am engaged",
+        "No, but I am in a relationship",
+        "No, I am single"
+      ]
+    },
+    {
+      "tag": "programming",
+      "dialog1": [
+        "How to learn coding",
+        "I want to learn programming",
+        "I like to learn web development",
+        "How to learn mobile app development"
+      ],
+      "dialog2": [
+        "You can watch youtube tutorials",
+        "You have to practice it by yourself",
+        "Read programming related medium articles",
+        "Follow programming related sub reddits",
+        "Create hacker rank account and practice",
+        "First learn java or c++ to get an idea about programming",
+        "Refer ebooks about programming"
+      ]
+    },
+    {
+      "tag": "english",
+      "dialog1": [
+        "How did you learn english",
+        "How to speak english fluently like you",
+        "What makes you speak fluent english"
+      ],
+      "dialog2": [
+        "I took classes for three years",
+        "I did an intensive course",
+        "I have been studying on my own",
+        "I picked it up from movies and songs",
+        "My girlfriend taught me",
+        "I read english newspapers and books",
+        "I speak with myself"
+      ]
+    },
+    {
+      "tag": "hobby",
+      "dialog1": [
+        "What is your hobby",
+        "What do you do in your free time",
+        "Ho do you spent your leisure time"
+      ],
+      "dialog2": [
+        "I don't have one",
+        "I usually hang out with friends",
+        "I watch moview and tv shows",
+        "I like reading and relaxing at home",
+        "I do volunteer work",
+        "I go running a lot"
+      ]
+    },
+    {
+      "tag": "weather",
+      "dialog1": [
+        "What is the weather like",
+        "How is the weather",
+        "Is it sunny",
+        "It is raining"
+      ],
+      "dialog2": [
+        "Hot and humid",
+        "It is pouring, take an umbrella",
+        "A little chilly, you might wanna bring a jacket",
+        "Gorgeous, a perfect summer day",
+        "It is quite cold, make sure to bundle up."
+      ]
+    },
+    {
+      "tag": "weather",
+      "dialog1": [
+        "What is the weather like",
+        "How is the weather",
+        "Is it sunny",
+        "It is raining"
+      ],
+      "dialog2": [
+        "Hot and humid",
+        "It is pouring, take an umbrella",
+        "A little chilly, you might wanna bring a jacket",
+        "Gorgeous, a perfect summer day",
+        "It is quite cold, make sure to bundle up."
+      ]
+    },
+    {
+      "tag": "movie",
+      "dialog1": ["How was the movie", "Do you like the movie"],
+      "dialog2": [
+        "It was fantastic",
+        "It was terrible",
+        "It was not bad",
+        "It is one of the best I have ever seen",
+        "No, I did not think it lived up to the hype"
+      ]
+    },
+    {
+      "tag": "party",
+      "dialog1": ["How was the party", "Do you like the party"],
+      "dialog2": [
+        "Crazy, it was absolutely packed",
+        "It was a good time",
+        "Small, but fun",
+        "There was hardly anybody there",
+        "Boring, I could not wait to get outta there"
+      ]
+    },
+    {
+      "tag": "matter",
+      "dialog1": [
+        "What is the matter",
+        "What is happening",
+        "What is the problem",
+        "Is everything ok",
+        "Why are you sad"
+      ],
+      "dialog2": [
+        "Oh, I am just having a rough day",
+        "I am not feeling so good",
+        "I just found out my mother's in the hospital",
+        "I do rather not talk about it",
+        "Nothing, I am fine",
+        "No, everything is fine, thanks"
+      ]
+    },
+    {
+      "tag": "drink",
+      "dialog1": ["What would you like to drink", "What do you want to drink"],
+      "dialog2": [
+        "Iced tea, please",
+        "Just water for me",
+        "What do you have",
+        "Could we see the wine list",
+        "Nothing for me, thanks"
+      ]
+    },
+    {
+      "tag": "cry",
+      "dialog1": ["Why are you crying", "Who made you cry"],
+      "dialog2": [
+        "Nothing, I am fine",
+        "He blame me for nothing",
+        "He yelled at me",
+        "She slapped at my face"
+      ]
+    },
+    {
+      "tag": "job",
+      "dialog1": [
+        "What is your job",
+        "What is your occupation",
+        "What do you do for living"
+      ],
+      "dialog2": [
+        "I am a doctor",
+        "I run my own business",
+        "I worked at the supermarket",
+        "I am a teacher",
+        "I am still studying"
+      ]
+    },
+    {
+      "tag": "go",
+      "dialog1": ["How do you go to office", "How do you go to school"],
+      "dialog2": [
+        "I go to office by my car",
+        "I use the bus",
+        "I use my own vehicle",
+        "My father drop me at the school",
+        "on foot"
+      ]
+    },
+    {
+      "tag": "laughing",
+      "dialog1": ["Who made you laugh so much", "Why are you laughing"],
+      "dialog2": [
+        "Because, I am very happy",
+        "He told me a joke",
+        "No one, just remember my own stupid work"
+      ]
+    },
+    {
+      "tag": "target",
+      "dialog1": [
+        "What is your ambition",
+        "Who do you want to be",
+        "What is your target"
+      ],
+      "dialog2": [
+        "I want to be an engineer",
+        "Just being a good human being",
+        "Popular businessman",
+        "Hollywood actor"
+      ]
+    },
+    {
+      "tag": "direction",
+      "dialog1": [
+        "How do I go to the supermarket",
+        "Where is the supermarket",
+        "Can you give the directions to the supermarket"
+      ],
+      "dialog2": [
+        "It is over there, just beyond the railway station",
+        "Go straight and turn left from the second junction",
+        "It is located behind the school"
+      ]
     }
   ]
 }
