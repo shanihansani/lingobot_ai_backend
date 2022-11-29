@@ -6,7 +6,10 @@ import numpy as np
 from keras.models import load_model
 from nltk.stem import WordNetLemmatizer
 
+# -----NLTK downloads-----
 nltk.download('punkt')
+nltk.download('wordnet')
+nltk.download('omw-1.4')
 
 # -----Variables-----
 model = load_model('./ModelResources/chatbot_model.h5')

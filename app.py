@@ -9,7 +9,10 @@ from flask_cors import CORS
 from json import JSONEncoder
 from googletrans import Translator
 
+# -----NLTK downloads-----
 nltk.download('punkt')
+nltk.download('wordnet')
+nltk.download('omw-1.4')
 
 # App initalization
 app = Flask(__name__)
