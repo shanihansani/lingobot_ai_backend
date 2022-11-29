@@ -9,6 +9,8 @@ from flask_cors import CORS
 from json import JSONEncoder
 from googletrans import Translator
 
+nltk.download('punkt')
+
 # App initalization
 app = Flask(__name__)
 CORS(app)

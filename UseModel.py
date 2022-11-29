@@ -6,6 +6,8 @@ import numpy as np
 from keras.models import load_model
 from nltk.stem import WordNetLemmatizer
 
+nltk.download('punkt')
+
 # -----Variables-----
 model = load_model('./ModelResources/chatbot_model.h5')
 model._make_predict_function()
