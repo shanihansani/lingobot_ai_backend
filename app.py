@@ -37,15 +37,15 @@ def index():
         if(language == "English"):
             final_output = dialog2
         elif(language == "Spanish"):
-            final_output =  translator.translate(dialog1, dest="es").text
+            final_output =  translator.translate(dialog2, dest="es").text
         elif(language == "German"):
-            final_output =  translator.translate(dialog1, dest="de").text
+            final_output =  translator.translate(dialog2, dest="de").text
         elif(language == "French"):
-            final_output =  translator.translate(dialog1, dest="fr").text
+            final_output =  translator.translate(dialog2, dest="fr").text
         elif(language == "Russian"):
-            final_output =  translator.translate(dialog1, dest="ru").text
+            final_output =  translator.translate(dialog2, dest="ru").text
         elif(language == "Mandarin"):
-            final_output =  translator.translate(dialog1, dest="zh-cn").text
+            final_output =  translator.translate(dialog2, dest="zh-cn").text
 
         print(final_output)
 
